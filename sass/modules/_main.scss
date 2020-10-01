@@ -6,3 +6,10 @@ body {
     margin: 0;
     border: 0;
 }
+
+.box {
+    width: 30px;
+    height: 30px;
+    @include roundCorners(20px);
+}
+
